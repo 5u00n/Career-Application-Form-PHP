@@ -7,7 +7,6 @@
 * [STATUS](*status)
 * [OUTPUT](*output)
 ## __INTRODUCTION__
----
 This project targets career application forms, with database and and report generation.
 
 This project coinsides with Admin Pages, built to mannage the data and generate report.
@@ -21,6 +20,7 @@ Have used vanila PHP as much as possible so that it is easy to implement and dep
 \
 This project will also focus on report generation on the side of Admin, also having some basic controls to manage users, their issues and getting final report of applied candidate.
 <br>
+
 ### __Extra Features__
 1. Getting an excel sheet having all related information of candidate.
 1. Producing CV style pdf that Admin can then check and print for record keeping.
@@ -37,7 +37,6 @@ To sum up most of the applilcation form have unstisfactory experience and data i
 <br>
 
 ## __GETTING STARTED__
----
 
 Can use any server of PHP
 
@@ -54,14 +53,11 @@ Thigs required to change:
 <br>
 
 ## __STATUS__
----
 Have just started this project will continue to develop on it.
 
 ## __OUTPUT__
 
----
 ## __CONTRIBUTE__
----
 
 Checkout [Contribution Guide](CONTRIBUTING.md) for local setup and contribution guide.
 ## __LIBRABRY USED__
