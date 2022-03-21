@@ -7,6 +7,7 @@
 * [STATUS](*status)
 * [OUTPUT](*output)
 ## __INTRODUCTION__
+
 This project targets career application forms, with database and and report generation.
 
 This project coinsides with Admin Pages, built to mannage the data and generate report.
@@ -29,7 +30,7 @@ This project will also focus on report generation on the side of Admin, also hav
 <br>
 
 ## __PROBLEM__
----
+
 __From experience of filling forms, have encountered the many issues like data getting lost if connection is lost and while uploading images the size is specified which is very hard to manage for normal people, and even if you manege to upload proper image the image comes streshed or squezed.__
 
 To sum up most of the applilcation form have unstisfactory experience and data is not handled properly.
@@ -61,7 +62,7 @@ Have just started this project will continue to develop on it.
 
 Checkout [Contribution Guide](CONTRIBUTING.md) for local setup and contribution guide.
 ## __LIBRABRY USED__
----
+
 - [html2Canvas](https://github.com/niklasvh/html2canvas) - Turns DOM into Canvas.
 - [jsPDF](https://github.com/MrRio/jsPDF) - To generate PDF from images.
 - [cypress](https://github.com/cypress-io/cypress) - Testing Library
