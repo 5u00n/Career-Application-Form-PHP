@@ -27,6 +27,7 @@ This project will also focus on report generation on the side of Admin, also hav
 1. Status of people completed and uncompleted forms.
 1.  Sendig email to people who have not completed the form but have started filling.
 <br>
+
 ## __PROBLEM__
 ---
 __From experience of filling forms, have encountered the many issues like data getting lost if connection is lost and while uploading images the size is specified which is very hard to manage for normal people, and even if you manege to upload proper image the image comes streshed or squezed.__
