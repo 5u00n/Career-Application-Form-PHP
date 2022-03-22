@@ -7,6 +7,18 @@
     <title>Career Application Form</title>
 </head>
 <body>
-    header
+    <header>
+        <img src="#" alt="">
+        <h1>Dummy Organiozation</h1>
+        <h2>from to from</h2>
+
+        
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
