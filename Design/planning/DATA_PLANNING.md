@@ -6,3 +6,5 @@ Parameters that is in question while at the time of storage. which finds how the
 <br>
 
 ## __Application form__
+Each applicant a application ID on the start of the Application Startup.
+

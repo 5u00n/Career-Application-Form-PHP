@@ -49,7 +49,7 @@
 <br>
 
 ## __PAGE STRUCTURE__
-
+    Have consider contrast beween front-ground and backgraound.
 ### __LANDING PAGE STRUCTURE__
 
 ##### __HEADER__

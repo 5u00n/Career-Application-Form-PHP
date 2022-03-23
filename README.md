@@ -65,6 +65,7 @@ Checkout [Contribution Guide](CONTRIBUTING.md) for local setup and contribution 
 Check the design planning of the project at [Design Planning](*/design/planning/DESIGN_PLANNING.md).
 
 For Data Plalning check at [Data Planning](*/design/planning/DATA_PLANNING.md).
+
 ## __LIBRABRY USED__
 
 - [html2Canvas](https://github.com/niklasvh/html2canvas) - Turns DOM into Canvas.
