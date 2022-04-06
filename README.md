@@ -4,8 +4,8 @@
 * [INTRODUCTION](#introduction)
 * [PROBLEM](#problem)
 * [GETTING STARTED](#getting-started)
-* [STATUS](*status)
-* [OUTPUT](*output)
+* [STATUS](#status)
+* [OUTPUT](#output)
 ## __INTRODUCTION__
 
 This project targets career application forms, with database and and report generation.
