@@ -62,9 +62,9 @@ Have just started this project will continue to develop on it.
 
 Checkout [Contribution Guide](CONTRIBUTING.md) for local setup and contribution guide.
 
-Check the design planning of the project at [Design Planning](*/design/planning/DESIGN_PLANNING.md).
+Check the design planning of the project at [Design Planning](/design/planning/DESIGN_PLANNING.md).
 
-For Data Plalning check at [Data Planning](*/design/planning/DATA_PLANNING.md).
+For Data Plalning check at [Data Planning](/design/planning/DATA_PLANNING.md).
 
 ## __LIBRABRY USED__
 
