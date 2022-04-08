@@ -4,8 +4,8 @@
 
 ## __PAGE FLOW__
 
-<div style="text-align:center;">
-<h4 style="padding:2px 5px;border:1px solid;">LANDING PAGE</h4></div>
+<div align=center>
+<h4 style="padding:2px 5px;border:1px solid;width:200px">LANDING PAGE</h4></div>
 <div align=center>
 <span style="padding:0px 70px">|</span>
 <hr style="margin:0;padding:0;width:310px">
@@ -17,6 +17,7 @@
 <span style="padding:0px 75px">|</span><span style="padding:0px 75px">|</span><span style="padding:0px 75px">|</span>
 
 <span style="margin:0px 50px;padding:2px 5px;border:1px solid white;">Verify Email</span><span style="margin:0px 20px;padding:2px 5px;border:1px solid white;">Verify Email</span><span style="margin:0px 50px;padding:2px 5px;border:1px solid white;">Authenticate</span>
+
 <span style="padding:0px 75px">|</span><span style="padding:0px 75px">|</span><span style="padding:0px 75px">|</span>
 
 <span style="margin:0px 50px;padding:2px 5px;border:1px solid white;">Personal Info</span><span style="margin:0px 10px;padding:2px 5px;border:1px solid white;">See Progress</span><span style="margin:0px 50px;padding:2px 5px;border:1px solid white;">Admin Panel</span>
@@ -49,7 +50,7 @@
 <br>
 
 ## __PAGE STRUCTURE__
-    Have consider contrast beween front-ground and backgraound.
+    consider contrast beween front-ground and backgraound.
 ### __LANDING PAGE STRUCTURE__
 
 ##### __HEADER__
