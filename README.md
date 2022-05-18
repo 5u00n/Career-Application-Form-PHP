@@ -58,6 +58,26 @@ Have just started this project will continue to develop on it.
 
 ## __OUTPUT__
 
+<img src="./screenshots/Web 1920 – 1.png">
+<img src="./screenshots/Web 1920 – 2.png">
+<img src="./screenshots/Web 1920 – 3.png">
+<img src="./screenshots/Web 1920 – 4.png">
+<img src="./screenshots/Web 1920 – 5.png">
+<img src="./screenshots/Web 1920 – 6.png">
+<img src="./screenshots/Web 1920 – 7.png">
+<img src="./screenshots/Web 1920 – 8.png">
+<img src="./screenshots/Web 1920 – 9.png">
+<img src="./screenshots/Web 1920 – 10.png">
+<img src="./screenshots/Web 1920 – 11.png">
+<img src="./screenshots/Web 1920 – 12.png">
+<img src="./screenshots/Web 1920 – 13.png">
+<img src="./screenshots/Web 1920 – 14.png">
+<img src="./screenshots/Web 1920 – 15.png">
+<img src="./screenshots/Web 1920 – 16.png">
+<img src="./screenshots/Web 1920 – 17.png">
+
+
+
 ## __CONTRIBUTE__
 
 Checkout [Contribution Guide](CONTRIBUTING.md) for local setup and contribution guide.
