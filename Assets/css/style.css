@@ -1,6 +1,9 @@
+
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+
 body {
-  padding: 0px;
-  margin: 0px;
   width: 100%;
 }
 
@@ -15,13 +18,33 @@ main {
   right: 0;
 
   margin: auto;
-  max-width: 920px;
-  height: 520px;
+  max-width: 1080px;
+  height: fit-content;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.4fr 4fr;
   border-radius: 7px;
 }
 
+
+
+.heading{
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+
+.left{
+ grid-row: 2; 
+ grid-column: 1;
+
+}
+
+.right{
+    grid-row: 2;
+    grid-column: 2;
+}
 .block-page {}
 
 .r-main {
@@ -34,7 +57,7 @@ main {
   box-shadow: grey 5px 5px 5px 5px;
   border-radius: 7px;
 
-  width: 360px;
+  
   border-radius: 1rem;
   box-shadow: 0 10px 25px rgb(92 99 105 / 20%);
 }
@@ -45,8 +68,9 @@ main {
 
 
 /*--------------------------------   Google Style forms  -------------------------------*/
-/*===== GOOGLE FONTS =====*/
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+
+
 
 /*===== VARIABLES CSS =====*/
 :root {
@@ -87,7 +111,7 @@ h1 {
 }
 
 .form {
-  width: 360px;
+  
   padding: 4rem 2rem;
   border-radius: 1rem;
   box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
