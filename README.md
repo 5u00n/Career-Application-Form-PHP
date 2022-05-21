@@ -75,6 +75,17 @@ Have just started this project will continue to develop on it.
 <img src="./screenshots/Web 1920 – 15.png">
 <img src="./screenshots/Web 1920 – 16.png">
 <img src="./screenshots/Web 1920 – 17.png">
+<img src="./screenshots/Web 1920 – 18.png">
+<img src="./screenshots/Web 1920 – 19.png">
+<img src="./screenshots/Web 1920 – 20.png">
+<img src="./screenshots/Web 1920 – 21.png">
+<img src="./screenshots/Web 1920 – 22.png">
+<img src="./screenshots/Web 1920 – 23.png">
+<img src="./screenshots/Web 1920 – 24.png">
+<img src="./screenshots/Web 1920 – 25.png">
+<img src="./screenshots/Web 1920 – 26.png">
+<img src="./screenshots/Web 1920 – 27.png"
+STU625cf1a18318f1650258337
 
 
 
@@ -93,7 +104,4 @@ For Data Plalning check at [Data Planning](/design/planning/DATA_PLANNING.md).
 - [cypress](https://github.com/cypress-io/cypress) - Testing Library
 ---
 
-[<img alt="Buy me a Coffee Button" width=200 src="https://c5.patreon.com/external/logo/become_a_patron_button.png">](https://www.patreon.com/) &nbsp; [<img alt="Buy me a Coffee Button" width=200 src="https://cdn.buymeacoffee.com/buttons/default-yellow.png">](https://www.buymeacoffee.com/)
 
-Bye!
-Have fun

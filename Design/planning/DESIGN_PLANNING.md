@@ -82,3 +82,10 @@
 1. right side will be created by and @5u00n
 1. left side will be lannguage ,
 1. about and help
+
+
+
+[<img alt="Buy me a Coffee Button" width=200 src="https://c5.patreon.com/external/logo/become_a_patron_button.png">](https://www.patreon.com/) &nbsp; [<img alt="Buy me a Coffee Button" width=200 src="https://cdn.buymeacoffee.com/buttons/default-yellow.png">](https://www.buymeacoffee.com/)
+
+Bye!
+Have fun
