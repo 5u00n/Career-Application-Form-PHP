@@ -3,6 +3,7 @@
 
 
 body {
+  
   width: 100%;
 }
 
@@ -31,6 +32,7 @@ main {
   padding: 30px;
   font-size: 59px;
   color: #575555;
+  width: 100%;
   
 }
 
@@ -60,7 +62,7 @@ main {
   box-shadow: 0 10px 25px rgb(92 99 105 / 20%);
 }
 .org-div{
-  margin:auto
+  margin:auto;
 }
 .img-lan{
   height: 100%;
