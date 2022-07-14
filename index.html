@@ -6,27 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Career Application Form</title>
-    <link rel="stylesheet" href="./Assets/css/style.css?version=1">
+    <link rel="stylesheet" href="/Assets/css/style.css?version=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
 <body>
 
-    
+    <h1 class="heading h-lan">Career Application Form</h1>
 
     <main class="block-main">
-        <h1 class="heading h-lan">Career Application Form</h1>
+      
         <div class="left l-lan ">
             <img class="img-lan" src="/Assets/img/img-landing.png" alt="Pictue" >
         </div>
-        <div class="right r-lan b-shade">
+        <div class="right r-lan b-shadow">
             <div class="org-div">
                 <img src="/Assets/img/logo.png" alt="LOGO" class="log">
                 <span class="org-name">Organization Name</span>
             </div>
             <div class="l-but-div">
-                <input class="l-but" type="button" value="Login">
+                <input class="l-but" type="button" value="Login" id="login-but">
                 <br>
-                <input class="l-but" type="button" value="Register">
+                <input class="l-but" type="button" value="Register" id="register-but">
             </div>
 
 
@@ -36,6 +37,15 @@
     <footer>
         <a href="/Admin">Admin</a>
     </footer>
+
+<script>
+$('#login-but').click(function(){
+    window.location.href="/Assets/pages/login/usr_details.html";
+});
+$('#register-but').click(function(){
+    window.location.href="/Assets/pages/register/form_1.html";
+});
+</script>
 </body>
 
 </html>
