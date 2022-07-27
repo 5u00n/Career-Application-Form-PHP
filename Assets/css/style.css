@@ -294,4 +294,18 @@
  .foot-forms {
    position: absolute;
    border-radius: 0rem 0rem 1rem 1rem;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+ }
+
+ .foot-cnt{
+  float: left;
+ }
+
+.foot-cnt a{
+padding: 0px 8px;
+ }
+
+ .by-form{
+  float: right;
  }
