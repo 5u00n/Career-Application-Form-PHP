@@ -1,3 +1,30 @@
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 321px) {
+  /* Styles */
+  .header i {
+    display: inline !important;
+  }
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) {
+  /* Styles */
+}
+
+/* tablet (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Styles */
+  .header i {
+    display: none !important;
+  }
+}
+@media only screen and (min-width: 1224px) {
+  /* Styles */
+  .header i {
+    display: none !important;
+  }
+}
+
 body {
   height: 100%;
   margin: 0;
@@ -6,6 +33,14 @@ header {
   display: grid;
   grid-template-columns: 1fr 4fr;
 }
+.logo-sec {
+  min-width: 110px;
+}
+.logo-sec i {
+}
+#logo {
+  margin: 2px;
+}
 header h1 {
   grid-column: 2;
   margin: 0px;
@@ -13,14 +48,15 @@ header h1 {
   text-align: center;
 }
 
-.sidebar {
+.sidebar-list {
+  margin: 0px;
+  padding: 40px;
   grid-row: 1;
   grid-column: 1;
-  width: 100%;
   background-color: bisque;
 }
 
-.main {
+.container {
   height: 100vh;
   width: 100%;
   display: grid;
@@ -29,7 +65,6 @@ header h1 {
 
 main {
   grid-column: 2;
-  width: 100%;
   background-color: rgb(0, 188, 116);
 }
 
@@ -44,9 +79,9 @@ main {
   bottom: 0;
 }
 
-.footer a{
-    margin: 5px;
-    text-decoration: none;
+.footer a {
+  margin: 5px;
+  text-decoration: none;
 }
 
 .foot-cnt {
@@ -55,9 +90,9 @@ main {
 }
 
 .foot-cnt a {
-  
 }
 
 .by-form {
   float: right;
+  padding-right: 10px;
 }
