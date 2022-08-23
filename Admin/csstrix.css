@@ -8,11 +8,11 @@
 }
 
 .dark {
-    --background: #000;
+    --background: rgb(46, 46, 59);
     --check: #f2eee3;
     --ball: #000;
-    --sidebar:#121213;
-    --sidehover:#6d6d6d;
+    --sidebar:#000000;
+    --sidehover:#3f3939;
 }
 
 .label {
@@ -130,7 +130,7 @@ body {
     font-size: 0.8rem;
 }
 
-
+/*----------  side bar hidden   ---------------- */
 
 #menu__toggle {
   opacity: 0;
