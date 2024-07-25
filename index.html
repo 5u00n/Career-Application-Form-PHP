@@ -1,84 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Career Application Form</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet"> <style>
-        .full-height {
-            height: 100vh;
-            overflow: hidden;
-        }
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" />
+  </head>
 
-        .center-buttons {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
+  <body class="bg-gray-100">
+    <div class="container mx-auto py-10 min-h-screen flex flex-col justify-center items-center">
+      <h1 class="text-4xl font-bold text-center mb-10">Career Application Form</h1>
 
-        .btn-block {
-            width: 100%;
-        }
-    </style>
-</head>
-
-<body class="bg-light">
-
-    <div class="container py-5 full-height">
-        <h1 class="display-4 text-center mb-5">Career Application Form</h1>
-
-        <div class="row flex-column-reverse flex-lg-row">
-            <div class="col-lg-6 mb-4 mb-lg-0 order-1 order-lg-2 d-none d-lg-block">
-                <img class="img-fluid" src="./Assets/img/img-landing.png" alt="Landing Image">
-            </div>
-            <div class="col-lg-6 order-2 order-lg-1">
-                <div class="card shadow-sm h-100">
-                    <div class="card-body center-buttons">
-                        <div class="d-flex justify-content-center align-items-center mb-4">
-                            <img src="./Assets/img/logo.png" alt="Organization Logo" class="mb-3 mr-3">
-                            <h2 class="h4 mb-3">Organization Name</h2>
-                        </div>
-                        <h2 class="h4 mb-3"><b>Registration form</b></h2>
-                        <form action="./form_2" method="POST" class="col-sm-10">
-                            <div class="form-group">
-                                <label for="email">Email</label>
-                                <input type="email" class="form-control" id="email" name="email" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="phone">Password</label>
-                                <input type="password" class="form-control" id="password" name="password" required>
-
-                            </div>
-                            <button type="submit" class="btn btn-primary btn-block my-4 ">Login / Register</button>
-                        </form>
-
-                        <div>
-                            <a href="./pages/register/form_1.html" class="text-center">Register</a> | 
-                            <a href="./pages/user/usr_details.html" class="text-center">Login</a> | 
-                            <a href="./forgot" class="text-center">Forgot Password</a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
+      <div class="flex flex-col lg:flex-row w-full max-w-4xl bg-white shadow-lg rounded-lg overflow-hidden">
+        <div class="lg:w-1/2 hidden lg:block">
+          <img class="w-full h-full object-cover" src="./Assets/img/img-landing.png" alt="Landing Image" />
         </div>
-    </div>
-    <footer class="footer mt-auto py-3 bg-light">
-        <div class="container d-flex justify-content-between">
-            <div class="text-dark">
-                <a href="./about" class="text-dark">About</a> |
-                <a href="./help" class="text-dark">Help</a>
+        <div class="lg:w-1/2 p-8">
+          <div class="flex justify-center items-center mb-6">
+            <img src="./Assets/img/logo.png" alt="Organization Logo" class="h-12 w-12 mr-3" />
+            <h2 class="text-2xl font-semibold">Organization Name</h2>
+          </div>
+          <h2 class="text-xl font-bold mb-6">Registration Form</h2>
+          <form action="./form_2" method="POST" class="space-y-6">
+            <div>
+              <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+              <input type="email" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500" id="email" name="email" required />
             </div>
             <div>
-                <span href="" class="text-dark">Created by <a href="https://gvithub.com/5u00n">@5u00n</a></span>
+              <label for="password" class="block text-sm font-medium text-gray-700">Password</label>
+              <input type="password" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500" id="password" name="password" required />
             </div>
+            <button type="submit" class="w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600">Login / Register</button>
+          </form>
+
+          <div class="text-center mt-6">
+            <a href="./pages/register/form_1.html" class="text-blue-500 hover:underline">Register</a> | 
+            <a href="./pages/user/usr_details.html" class="text-blue-500 hover:underline">Login</a> | 
+            <a href="./forgot" class="text-blue-500 hover:underline">Forgot Password</a>
+          </div>
         </div>
+      </div>
+    </div>
+    <footer class="mt-10 py-4 bg-gray-200 w-full">
+      <div class="container mx-auto flex justify-between">
+        <div class="text-gray-700">
+          <a href="./about" class="text-gray-700 hover:underline">About</a> | 
+          <a href="./help" class="text-gray-700 hover:underline">Help</a>
+        </div>
+        <div>
+          <span class="text-gray-700">Created by <a href="https://github.com/5u00n" class="text-blue-500 hover:underline">@5u00n</a></span>
+        </div>
+      </div>
     </footer>
 
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
-</body>
-
+    <script src="https://cdn.jsdelivr.net/npm/tailwindcss@^1.0/dist/tailwind.min.js"></script>
+  </body>
 </html>
